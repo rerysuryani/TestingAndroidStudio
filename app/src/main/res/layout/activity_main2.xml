@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="id.web.rery.studycase.Main2Activity">
+
+    <TextView
+        android:id="@+id/layout2_MakanMalam"
+        android:layout_width="wrap_content"
+        android:textSize="12pt"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12pt"
+        android:text="Makan Malam"
+        />
+
+    <TextView
+        android:id="@+id/layout2_Eatbus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout2_MakanMalam"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp"
+        android:textSize="10pt" />
+
+    <TextView
+        android:id="@+id/Layout2_Menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout2_Eatbus"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="75dp"
+        android:text="Menu" />
+
+    <TextView
+        android:id="@+id/Layout2_Porsi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:text="Porsi" />
+
+    <TextView
+        android:id="@+id/Layout2_Harga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Layout2_Porsi"
+        android:layout_alignStart="@+id/Layout2_Porsi"
+        android:layout_below="@+id/Layout2_Porsi"
+        android:layout_marginTop="84dp"
+        android:text="Harga" />
+
+    <TextView
+        android:id="@+id/Menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/Layout2_Menu"
+        android:layout_marginTop="16dp"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/Porsi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Layout2_Porsi"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/Harga"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Layout2_Harga"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp"
+        android:textAlignment="center" />
+</RelativeLayout>
